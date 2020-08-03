@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FairApplicationTest]" verbose="0">
+  <test name="Automation Tests(failed)">
+    <classes>
+      <class name="lineOfCredits.creditCreation">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="secondScenario"/>
+          <include name="wrongAprEmpty"/>
+          <include name="wrongAprNeg"/>
+          <include name="wrongCreditLimitNeg"/>
+          <include name="wrongAprLetters"/>
+          <include name="wrongCreditLimitEmpty"/>
+          <include name="firstScenario"/>
+          <include name="wrongCreditLimitLetters"/>
+        </methods>
+      </class> <!-- lineOfCredits.creditCreation -->
+    </classes>
+  </test> <!-- Automation Tests(failed) -->
+</suite> <!-- Failed suite [FairApplicationTest] -->
